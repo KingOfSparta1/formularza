@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>formmularz</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+</head>
+<body>
+    <div class="top"><h1 id="title">Survey Form</h1>
+        <p id="description">Let us know how we can improve freeCodeCamp</p></div>
+    <form action="form.php" id="survey-form">
+        <label for="name">Name <input type="text" id="name" placeholder="Enter your name"></label><br><br>
+        <label for="email">Email <input type="email" id="email" placeholder="Enter your email"></label><br><br>
+        <label for="number">Age <input type="number" id="number" placeholder="Age" min="1" max="100"></label><br><br>
+        <label for="dropdown">Which option best describes your current role? <select id="dropdown">
+            <option value="Student" name="list">Student</option>
+            <option value="Full Time Job" name="list">Full Time Job</option>
+            <option value="Full Time Lealner" name="list">Full Time Lealner</option>
+            <option value="Not say" name="list">Prefer not to say</option>
+            <option value="other" name="list">Other</option>
+        </select></label><br><br>
+        <label for="definetly">How likely is that you would recommend freeCodeCamp to a friend?  <br><input type="radio" id="definetly">Definetly</label><br>
+            <label for="maybe"><input type="radio" id="maybe">Maybe</label><br>
+            <label for="not"><input type="radio" id="not">Not sure</label><br><br>
+            <label for="dropdown1" placeholder="select">What do you like most in FCC: <select id="dropdown1" >
+                <option value="Challenges" name="select">Challenges</option>
+                <option value="Projects" name="select">Projects</option>
+                <option value="Community" name="select">Community</option>
+                <option value="Open" name="select">Open source</option>
+            </select>
+            </label><br><br>
+        <label for="">Things that should be improved in the future Check all that apply):<br>
+        <input type="checkbox" name="skills" id="">Front-end Projects</label><br>
+        <label for=""><input type="checkbox" name="skills" id="">Back-end Projects</label><br>
+        <label for=""><input type="checkbox" name="skills" id="">Data Visualization</label><br>
+        <label for=""><input type="checkbox" name="skills" id="">Challenges</label><br>
+        <label for=""><input type="checkbox" name="skills" id="">Open Source Community</label><br>
+        <label for=""><input type="checkbox" name="skills" id="">Gitter help rooms</label><br>
+        <label for=""><input type="checkbox" name="skills" id="">Videos</label><br>
+        <label for=""><input type="checkbox" name="skills" id="">City Meetups</label><br>
+        <label for=""><input type="checkbox" name="skills" id="">Wiki</label><br>
+        <label for=""><input type="checkbox" name="skills" id="">Forum</label><br>
+        <label for=""><input type="checkbox" name="skills" id="">Additional Courses</label><br><br>
+        
+        <label for="pole">Any Comments or Suggestions? <textarea name="textarea" id="pole" cols="30" rows="10"></textarea></label><br><br>
+        
+        <label for="wyslij"><input type="submit" id="wyslij"></label>
+        
+    </form>
+</body>
+</html>

@@ -1,0 +1,35 @@
+*{font-family: 'Lato', sans-serif;}
+
+.top{
+  width:50vw;
+    padding:20px;
+    height: 20%;
+position:relative; 
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+      margin:auto;
+    background-color:gainsboro;
+    color:#2a4243;
+}
+
+h1{text-align: center;
+
+}
+
+p{text-align: center;
+
+}
+
+form{
+max-width:50vw;
+    height: 100%;
+position:relative;
+top:20%;
+bottom:0;
+left:0;
+right:0;
+margin:auto;
+background-color:#f0f0f0;
+padding:20px;}
